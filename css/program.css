@@ -1,0 +1,198 @@
+@font-face{
+  font-family: oswald-reg;
+  src:url(../fonts/oswald/Oswald-Regular.ttf);
+}
+
+@font-face{
+  font-family: muller;
+  src: url(../fonts/10291.otf);
+}
+
+@font-face{
+  font-family: evolventa;
+  src: url(../fonts/10291.otf);
+}
+
+*{
+  font-family: oswald-reg;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /*height: 60px;*/
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*code {
+  font-size: 80%;
+}*/
+
+
+/*CODE*/
+
+/*div.container,*/
+div.headerImg,
+div.headerImg img,
+div.startedMini {
+  margin: 0;
+  padding: 0;
+}
+
+
+div.main,
+div.headerImg{
+  position: relative;
+  top:0;
+  left:0;
+}
+div.main {
+  width: 100%;
+  overflow: hidden;
+}
+/*PROGR IMG*/
+div.programImg{
+	width: 100%;
+	  height: 300px;
+	  background-image:url(../img/progr.jpg);
+	  background-size: cover;
+	  background-position: 50% 50%;
+	  background-repeat: no-repeat;
+}
+
+
+/*PROGRAM CAROUSEL*/
+div.progrCar,
+div.progrCar div.carousel-inner img{
+  /*border:1px solid;*/
+  /*width: 500px;*/
+  height: 350px;
+}
+div.progrCar div{
+	margin: 0;
+	padding: 0;
+}
+div.progrCar div.carousel-inner img{
+	width:100%;
+}
+/*PROG PRICE*/
+div.progrPrice{
+	height: 350px;
+	background-color: #f5f5f5;	
+}
+div.progrPrice h2{
+	margin-top:130px;
+	font-family: muller;
+	font-weight: bold;
+	color: #003300;
+	text-align: center;
+}
+div.progrPrice h2 span{
+	font-family: muller;
+	font-weight: bold;
+	color: #33BB77
+}
+div.progrPrice h3{
+	text-align: center;
+}
+div.progrPrice h3:hover{
+	cursor:pointer;
+}
+div.progrPrice h3 a{
+	text-decoration: none;
+	color:#666666;
+}
+/*ABOUT PROG*/
+div.aboutProg{
+	border: 1px solid #f5f5f5;
+}
+div.aboutProg div{
+	font-family: muller;
+	font-weight: bold;	
+}
+
+
+
+/*CALLORIES TABLE*/
+div.calTable{
+	width:90%;
+	margin: 0 auto;
+}
+/*div.calTable table th{
+	font-family: muller;
+	font-weight: bold;
+	color: #003300;
+}*/
+h2.calHead{
+	color: #003300;
+}
+div.calTable table td{
+	font-family: muller;
+	font-weight: bold;
+}
+
+
+/*FOOTER*/
+.footer div.footerInfo a{
+  font-family: muller;
+    font-weight: bold;
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+@media screen and (max-width: 960px) and (min-width: 750px){
+  	div.progrCar,
+	div.progrCar div.carousel-inner img{
+	  height: 150px;
+	}
+	div.progrPrice{
+		height: 150px;
+	}
+	div.progrPrice h2{
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 750px){
+	div.progrCar,
+	div.progrCar div.carousel-inner img{
+	  height: 150px;
+	}
+	div.progrPrice{
+		height: 150px;
+	}
+	div.progrPrice h2{
+		margin-top: 40px;
+	}
+
+}

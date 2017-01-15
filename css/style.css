@@ -1,0 +1,379 @@
+@font-face{
+  font-family: oswald-reg;
+  src:url(../fonts/oswald/Oswald-Regular.ttf);
+}
+
+@font-face{
+  font-family: muller;
+  src: url(../fonts/10291.otf);
+}
+
+@font-face{
+  font-family: evolventa;
+  src: url(../fonts/10291.otf);
+}
+
+*{
+  font-family: oswald-reg;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /*height: 60px;*/
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+/*CODE*/
+
+/*div.container,*/
+div.headerImg,
+div.headerImg img,
+div.startedMini {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*CONTAINER*/
+/*.color{
+  color: #003300;
+}*/
+
+div.main,
+div.headerImg{
+  position: relative;
+  top:0;
+  left:0;
+}
+/*div.container{
+  color: #003300;
+}*/
+div.main {
+  width: 100%;
+}
+div.headerImg {
+  width: 100%;
+  height: 600px;
+  background-image:url(../img/header1.jpg);
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+}
+/*FORM*/
+/*STERTED MINI*/
+form.formStarted{
+  margin-top:25px;
+}
+div.startedMini{
+  width:485px;
+  height: 315px;
+  background-color: white;
+  position: absolute;
+  top: 130px;
+  right: 110px;
+}
+div.startedBigTxt{
+  margin-top: 55px;
+  font-size: 27px;
+  text-transform: uppercase;
+  color: #003300;
+}
+div.startedSmallTxt{
+  margin-top:10px;
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #739D73;
+}
+div.startedBigTxt,
+div.startedSmallTxt{
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+input.inputForm{
+  width: 215px;
+  height: 38px;
+  padding-left: 13px;
+  font-family: muller;
+  font-weight: bold;
+}
+
+input.inputForm:nth-of-type(1){
+  margin-left:20px;
+}
+input.inputForm:nth-of-type(2){
+  margin-left:12px;
+}
+button.butForm{
+  width:445px;
+  height:38px;
+  margin-left:35px;
+  margin-top:20px;
+  border: 0;
+  /*font-size: 13px;
+  letter-spacing: 1px;*/
+  text-transform: uppercase;
+  color:white;
+  background-color: #33BB77;
+  outline: none;
+}
+input.inputForm,
+button.butForm{
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+div.agreeTerms{
+  margin-top: 18px;
+  color: #999999;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: muller;
+  font-weight: bold;
+}
+
+/*STARTED BIG*/
+.startedBig {
+  display: none;
+}
+/*.formStartedBig {
+  border: 1px solid green;
+}*/
+/*.formStartedBig input:nth-of-type(1){
+  margin-left: 25%;
+}*/
+/*.formStartedBig button{
+  margin-left: 26%;
+}*/
+
+/*HOW IT WORKS*/
+div.howWorks{
+  /*height: 455px;*/
+  /*background-color: green*/
+}
+div.howWorks div:nth-of-type(1){
+  font-size: 25px;
+  color: #003300;
+  text-align:center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*CIRCLE ICON*/ 
+.howWorks .marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.howWorks .marketing h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #003300;
+}
+.howWorks .marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #666666;
+  font-family: muller;
+  font-weight: bold;
+}
+
+/*PROGRAMS CAROUSEL*/
+.foodPrograms h2.headColor{
+  color: #003300;
+}
+.foodPrograms .col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.foodPrograms .photo{
+  height: 160px;
+} 
+.foodPrograms .col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.foodPrograms .col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+.foodPrograms .col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.foodPrograms .col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+.foodPrograms .col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+.foodPrograms .price-text-color
+{
+    color: #219FD1;
+}
+.foodPrograms .col-item .info .rating
+{
+    color: #777;
+}
+.foodPrograms .col-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+.foodPrograms .col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+.foodPrograms .clear-left
+{
+    clear: left;
+}
+.foodPrograms .col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+    color: #003300;
+}
+.foodPrograms .col-item .separator p i
+{
+    margin-right: 5px;
+}
+.foodPrograms .col-item .separator p a{
+    font-family: muller;
+    font-weight: bold;
+    text-decoration: none;
+    color: #003300;
+}
+
+
+.foodPrograms .col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+.foodPrograms .col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+.foodPrograms .col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.foodPrograms .controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+
+/*FOOTER*/
+.footer div.footerInfo  a{
+  font-family: muller;
+    font-weight: bold;
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+
+
+@media screen and (max-width: 960px) and (min-width: 750px){
+  div.headerImg{
+    height: 300px;
+  }
+  div.startedMini{
+    display: none;
+  }
+  div.startedBig {
+    display: block;
+  }
+  .formStartedBig input:nth-of-type(1){
+    margin-left: 25%;
+  }
+  .formStartedBig button{
+    margin-left: 26%;
+  }
+}
+
+@media screen and (max-width: 750px){
+  div.headerImg{
+    height: 250px;
+  }
+  div.startedMini{
+    display: none;
+  }
+  div.startedBig {
+    display: block;
+  }
+  .formStartedBig input{
+    display: block;
+    width: 85%;
+    /*margin-left: 5%;*/
+    /*position: ;*/
+  }
+  .formStartedBig input:nth-of-type(1){
+    margin-left: 7%;
+  }
+  .formStartedBig input:nth-of-type(2){
+    margin-left: 7%;
+  }
+  .formStartedBig button{
+    width: 81%;
+    margin-left: 9%;
+  }
+}
