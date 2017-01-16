@@ -491,6 +491,48 @@ div.downSt{
 	background-position: 50% 50%;
 	position: relative;
 }
+div.formDown{
+	width:519px;
+	height:350px;
+	background-color: white;
+	/*margin:0 auto;*/
+	position: absolute;
+	top:15%;
+	left: 30%;
+}
+div.formDown div:nth-of-type(1){
+	width: 80%;
+	margin: 10px auto;
+	font-size: 20px;
+	font-family: muller;
+	/*line-height: 23px;*/
+	text-align: center;
+	font-weight: bold;
+}
+div.formDown input,
+div.formDown button{
+	width:485px;
+	height:39px;
+	margin-top:20px;
+	position:relative;
+	left:3%;
+	letter-spacing: 1px;
+}
+div.formDown input{
+	padding-left:10px;
+	font-family: muller;
+}
+div.formDown button{
+	background-color:#33BB77;
+	color: white;
+	border:0;
+	outline: none;
+}
+div.formDown div:last-of-type{
+	font-family: muller;
+	text-align: center;
+	margin-top: 20px
+}
 }
 /*FOOTER*/
 .footer{
@@ -502,6 +544,7 @@ div.downSt{
     text-decoration: none;
     color: #5E5E5E;
 }
+
 
 @media screen and (max-width: 960px) and (min-width: 770px){
 	div.pic1{
@@ -621,7 +664,7 @@ div.downSt{
 	}
 	div.susDescrMini{
 		display: block;
-		
+
 		position:relative;
 		background-color: #F5F6F8;
 		text-align: center;
