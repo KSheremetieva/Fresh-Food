@@ -89,11 +89,13 @@ div.main {
 }
 div.headerImg {
   width: 100%;
-  height: 600px;
+  margin-top:50px;
+  height: 615px;
   background-image:url(../img/header1.jpg);
   background-size: cover;
   background-position: 50% 30%;
   background-repeat: no-repeat;
+  /*top:60px;*/
 }
 /*FORM*/
 /*STERTED MINI*/
@@ -212,6 +214,79 @@ div.howWorks div:nth-of-type(1){
   font-family: muller;
   font-weight: bold;
 }
+/*CHEEFS COOK IMG*/
+div.cheefsCookImg{
+  width:100%;
+  height: 410px;
+  background-image:url(../img/cheefsCook.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+div.cheefsCookImg div.contentCheef{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.6);
+
+  position:absolute;
+}
+div.cheefTxt{
+  margin-top:45px;
+  margin-bottom: 58px;
+  color:white;
+  font-size: 25px;
+  /*font-weight: bold;*/
+  letter-spacing: 3px;
+  text-align: center;
+}
+div.mealContent{
+  /*width:100px;*/
+  height:155px;
+  position: absolute;
+  /*top:127px;*/
+  /*left: 350px;*/
+}
+div.mealContent:nth-of-type(2){
+  top:127px;
+  left:27%;
+}
+div.mealContent:nth-of-type(3){
+  top:127px;
+  left:40%;
+}
+div.mealContent:nth-of-type(4){
+  top:127px;
+  left:53%; 
+}
+div.mealContent:nth-of-type(5){
+  top:127px;
+  left:66%;
+}
+img.mealImg{
+  width:100px;
+  height: 100px;
+}
+div.mealContent div{
+  /*display: inline-block;*/
+  color:white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  /*margin:0 auto;*/
+}
+button.mealPlan{
+  width: 211px;
+  height:43px;
+  background-color: #33BB77;
+  color: white;
+  letter-spacing: 1px;
+  outline: none;
+  border:0;
+  position: absolute;
+  bottom:32px;
+  left: 42%;
+}
 
 /*PROGRAMS CAROUSEL*/
 .foodPrograms h2.headColor{
@@ -322,12 +397,77 @@ div.howWorks div:nth-of-type(1){
     margin-right: 10px;
 }
 
+/*DOWN LIST STARTED*/
+div.downStarted{
+  width:100%;
+  height: 490px;
+  /*margin-top: 50px;*/
+  background-image:url(../img/donStarted.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+div.downStartedForm{
+  width: 450px;
+  height:240px;
+  background-color: rgba(255,255,255,0.8);
+  position: absolute;
+  top:120px;
+  left: 34%;
+}
+div.downTxt{
+  font-size: 18px;
+  font-family: evolventa;
+  font-weight: bold;
+  text-align: center;
+  color: #5E5E5E;
+  letter-spacing: 1px;
+  position:relative;
+  top: 35px;
+}
+input.downStartedInp{
+ width: 198px;
+ height:39px;
+ margin-top: 50px;
+ margin-left: 18px;
+ padding-left:13px;
+ color: #5E5E5E;
+  font-family: muller;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+div.downStartedForm button{
+  width: 417px;
+  height: 39px;
+  margin-top: 20px;
+  margin-left:18px;
+  background-color: #28935E;
+  color: white;
+  letter-spacing: 2px;
+  outline: none;
+  border:0;
+}
+
+div.downStartedForm div.downTerms{
+  margin-top:10px;
+  color: #5E5E5E;
+  font-family: evolventa;
+  /*font-weight: bold;*/
+  text-align: center;
+
+}
+
 /*FOOTER*/
+.footer div.footerInfo{
+  padding-bottom: 20px;
+}
 .footer div.footerInfo  a{
   font-family: muller;
     font-weight: bold;
     text-decoration: none;
     color: #5E5E5E;
+
 }
 
 
@@ -342,11 +482,39 @@ div.howWorks div:nth-of-type(1){
   div.startedBig {
     display: block;
   }
-  .formStartedBig input:nth-of-type(1){
+  .formStartedBig input{
+    width: 398px;
+    margin-top:15px;
+  }
+  .formStartedBig input:nth-of-type(1),
+  .formStartedBig input:nth-of-type(2){
     margin-left: 25%;
   }
   .formStartedBig button{
+    width: 399px;
     margin-left: 26%;
+  }
+  div.mealContent:nth-of-type(2){
+    top:127px;
+    left:15%;
+  }
+  div.mealContent:nth-of-type(3){
+    top:127px;
+    left:35%;
+  }
+  div.mealContent:nth-of-type(4){
+    top:127px;
+    left:55%; 
+  }
+  div.mealContent:nth-of-type(5){
+    top:127px;
+    left:75%;
+  }
+  button.mealPlan{
+    left: 35%;
+  }
+  div.downStartedForm{
+    left: 25%;
   }
 }
 
@@ -366,14 +534,68 @@ div.howWorks div:nth-of-type(1){
     /*margin-left: 5%;*/
     /*position: ;*/
   }
-  .formStartedBig input:nth-of-type(1){
+  .formStartedBig input{
+    width: 398px;
+    margin-top:15px;
+  }
+  .formStartedBig input:nth-of-type(1),
+  .formStartedBig input:nth-of-type(2){
+    margin-left: 25%;
+  }
+  .formStartedBig button{
+    width: 399px;
+    margin-left: 26%;
+  }
+  /*.formStartedBig input:nth-of-type(1){
     margin-left: 7%;
   }
   .formStartedBig input:nth-of-type(2){
     margin-left: 7%;
-  }
-  .formStartedBig button{
+  }*/
+  /*.formStartedBig button{
     width: 81%;
     margin-left: 9%;
+  }*/
+  div.cheefsCookImg{
+    height:575px;
+  }
+  div.mealContent:nth-of-type(2){
+    top:125px;
+    left:140px;
+  }
+  div.mealContent:nth-of-type(3){
+    top:125px;
+    left:460px;
+  }
+  div.mealContent:nth-of-type(4){
+    top:295px;
+    left:140px; 
+  }
+  div.mealContent:nth-of-type(5){
+    top:295px;
+    left:460px;
+  }
+  button.mealPlan{
+    left: 30%;
+  }
+  div.downStartedForm{
+    left: 25%;
+    height: 325px;
+  }
+  input.downStartedInp{
+   width: 389px;
+   margin-top:15px;
+   margin-left: 30px;
+  }
+  input.downStartedInp:nth-of-type(1){
+    margin-top:50px;
+  }
+  div.downStartedForm button{
+    width: 389px;
+   margin-left: 30px;
+    margin-top: 30px;
+  }
+  div.downStartedForm div.downTerms{
+    margin-top: 20px;
   }
 }
