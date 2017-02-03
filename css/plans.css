@@ -1,0 +1,343 @@
+@font-face{
+  font-family: oswald-reg;
+  src:url(../fonts/oswald/Oswald-Regular.ttf);
+}
+
+@font-face{
+  font-family: muller;
+  src: url(../fonts/10291.otf);
+}
+
+@font-face{
+  font-family: evolventa;
+  src: url(../fonts/10291.otf);
+}
+
+@font-face{
+	font-family: curve;
+	src: url(../fonts/LearningCurve.ttf);
+}
+
+*{
+  font-family: oswald-reg;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /*height: 60px;*/
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*code {
+  font-size: 80%;
+}*/
+
+
+/*CODE*/
+
+div.main{
+  position: relative;
+  top:0;
+  left:0;
+}
+div.main {
+  width: 100%;
+  overflow: hidden;
+}
+
+div.main div.header{
+	font-size: 25px;
+	color: #003300;
+	text-align: center;
+	margin-top:50px;
+	margin-bottom:35px;
+}
+div.meal {
+	height: 350px;
+	border-bottom: 1px solid #E1E1E1;
+}
+div.mealPlan{
+	border-right: 1px solid #E1E1E1;
+	height: 320px; 
+}
+div.mealPlan:hover{
+	cursor:pointer;
+	box-shadow: 0px 0px 19px 0px rgba(225,225,225,1);
+	/*height: 330px; */
+}
+div.mealPlan .center{
+	text-align: center;
+}
+div.mealPlan > div:nth-of-type(1){
+	font-size: 40px;
+	color: #003300;
+}
+div.mealPlan > div:nth-of-type(2){
+	font-size: 40px;
+	color: #003300;
+	font-family: curve;
+}
+div.mealPlan span:nth-of-type(1){
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: evolventa;
+	font-weight: bold;
+}
+div.mealPlan span:nth-of-type(2){
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+div.mealPlan div.marTop{
+	margin-top: 25px;
+}
+div.mealPlan div:nth-of-type(4){
+	font-size: 17px;
+	/*font-weight: bold;*/
+	font-family: evolventa;
+	text-align: center;
+
+}
+div.mealPlan div:nth-of-type(4) img{
+	height: 14px;
+	position: relative;
+	top: -2px;
+}
+
+div.mealPlan button{
+	width: 175px;
+	height: 35px;
+	margin-top: 45px;
+	background-color: #33BB77;
+	color: white;
+	letter-spacing: 1px;
+	outline: none;
+	border: 0;
+	border-radius: 2px;
+}
+
+/*QUOTE*/
+div.quote{
+	height: 250px;
+	background-color: #FCFCFC;
+	border-bottom: 1px solid #E1E1E1;
+}
+div.quoteSimb{
+	height: 13px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+div.quoteSimb img{
+	height: 100%;
+}
+div.quote div.quoteTxt{
+	height: 120px;
+	width: 430px;
+	margin: 0 auto;
+	/*border: 1px solid;*/
+	position: relative;
+	top: 90px;
+}
+div.quote div.quoteTxt div{
+	text-align: center;
+	font-size: 18px;
+	font-family: muller;
+	color: #003300;
+	font-weight: bold;
+}
+div.quote div.quoteTxt div:nth-of-type(2){
+	font-size: 15px;
+	color: #003300;
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+}
+
+/*QUESTIONS*/
+div.question{
+	height: 1420px;
+	border-bottom: 1px solid #E1E1E1;
+	background-color: #F7F7F7;
+}
+div.question div.questHeader{
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #003300;
+	position: relative;
+	top: 50px;
+}
+div.question div.common{
+	display: inline-block;
+	width: 46vw;
+	background-color: white;
+	margin: 1vw;
+	padding: 1vw;
+	position: relative;
+}
+div.question div.top120{
+	margin-top:120px;
+}
+div.question div.common div:nth-of-type(1){
+	margin-top: 35px;
+	font-size: 15px;
+	color: #003300;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+div.question div.common div:nth-of-type(2){
+	margin-top: 25px;
+	font-size: 13px;
+	font-family: muller;
+	color: #003300;
+	letter-spacing: 1px;
+}
+div.question div.common div:nth-of-type(3){
+	margin-top: 10px;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+div.question div.common div:nth-of-type(3) a{
+	font-family: muller;
+	color: #59C590;
+	font-weight: bold;
+}
+div.question div.oterQues{
+	text-align: center;
+}
+div.question div.oterQues div:first-child{
+	font-family: curve;
+	font-size: 40px;
+	color: #003300;
+	position: relative;
+	top: 35px;
+}
+div.question div.oterQues div:last-child a{
+	font-family: muller;
+	color: #59C590;
+	font-size: 17px;
+	font-weight: bold;
+	position: relative;
+	top: 35px;
+}
+
+/*FOOTER*/
+.footer{
+	margin-bottom: 20px;
+	background-color: white;
+}
+.footer div.footerInfo a{
+  font-family: muller;
+    font-weight: bold;
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+@media screen and (max-width: 960px) and (min-width: 750px){
+	div.meal{
+		height: 700px;
+	}
+	div.meal div.mealPlan{
+		height: 330px;
+		margin-top: 15px;
+	}
+	div.mealPlan button{
+		margin-top: 45px;
+	}
+}
+
+@media screen and (max-width: 750px){
+	div.meal{
+		height: 750px;
+		/*border: 1px solid red;*/
+	}
+	div.meal div.mealPlan{
+		/*border:1px solid;*/
+		height: 180px;
+		margin-top: 5px;
+		position: relative;
+		border-top:1px solid #E1E1E1;
+	}
+	div.meal div.mealPlan div.numb{
+		display:inline-block;
+		width: 30px;
+		font-size: 55px;
+	}
+	div.meal div.mealPlan div.meals{
+		display: block;
+		width: 70%;
+		font-size: 35px;
+		text-align: left;
+		position: relative;
+		top: 29px;
+	}
+	div.meal div.mealPlan div.last{
+		left: 20px;
+	}
+	div.meal div.mealPlan div.price{
+		display: inline-block;
+		position: absolute;
+		top: 70px;
+		left:15px;
+	}
+	div.meal div.mealPlan div.price:nth-of-type(2){
+		left: 144px;
+	}
+	div.mealPlan div:nth-of-type(4){
+		text-align: left;
+		font-weight: bold;
+		position: relative;
+		top: 25px;
+	}
+	div.question{
+		height: 2500px;
+		position:relative;
+	}
+
+	div.question div.common{
+		width: 96vw;
+	}
+	div.question div.top120{
+		margin-top: 1vw;
+	}
+	div.question div.topMini{
+		margin-top: 100px;
+	}
+	
+
+	div.mealPlan button{
+		display: none;
+	}
+}

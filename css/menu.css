@@ -12,6 +12,10 @@
   font-family: evolventa;
   src: url(../fonts/10291.otf);
 }
+@font-face{
+	font-family: curve;
+	src: url(../fonts/LearningCurve.ttf);
+}
 
 *{
   font-family: oswald-reg;
@@ -100,10 +104,10 @@ div.menuImg div.menuHead{
 }
 div.foodType{
 	margin: 10px;
-	font-family: muller;
-	font-size: 15px;
+	font-family: curve;
+	font-size: 35px;
 	letter-spacing: 1px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: #003300;
 }
 div.menuPic{
